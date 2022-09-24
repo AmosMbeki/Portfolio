@@ -1,6 +1,10 @@
 <?php
 
+use App\Models\Experience;
+use App\Models\Project;
+use App\Models\Skill;
 use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +18,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('portfolio', [
+        'projects' => Project::all(),
+        'skills' => Skill::all(),
+        'experiences' => Experience::all(),
+    ]);
 });
