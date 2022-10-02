@@ -1,7 +1,4 @@
-@extends('layout')
-
-@section('content')
-
+<x-layout>
   <!--  Home -->
   <x-home-collapse :skills="$skills" />
 
@@ -13,5 +10,4 @@
 
   <!--  Contact -->
   <x-contact-collapse />
-    
-@endsection
+</x-layout>  

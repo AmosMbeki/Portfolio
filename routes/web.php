@@ -1,8 +1,6 @@
 <?php
 
-use App\Models\Experience;
-use App\Models\Project;
-use App\Models\Skill;
+use App\Http\Controllers\PortfolioController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -17,10 +15,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('portfolio', [
-        'projects' => Project::all(),
-        'skills' => Skill::all(),
-        'experiences' => Experience::all(),
-    ]);
-});
+ /** Common Resource Routes: */
+
+// index - Show all entities
+// show - Show single entity
+// create - Show form to create new entity
+// store - Store new entity
+// edit - Show form to edit entity
+// update - Update entity
+// destroy - Delete entity 
+
+Route::get('/', [PortfolioController::class, 'index']);
+
+Route::post('/', [PortfolioController::class, 'store']);

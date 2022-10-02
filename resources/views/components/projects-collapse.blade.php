@@ -10,8 +10,12 @@
       <h3>What Have I Built?</h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nostrum repudiandae debitis, nam iste amet.</p>
         <div class="row no-gutters">
+            
             <x-items-projects :projects="$projects" />
-        </div>
+          </div>
+        
     </x-card-bottom> 
+
+    
     
   </div>

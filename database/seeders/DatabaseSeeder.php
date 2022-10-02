@@ -29,7 +29,7 @@ class DatabaseSeeder extends Seeder
         Project::create(
             [
                 'name' => 'Shortest Path Finder', 
-                'type' => 'Middleware Integration IL',
+                'type' => 'Personal',
                 'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam minima et illo reprehenderit.',
                 'skills' => 'Docker, Java, JavaScript',
             ]
@@ -38,7 +38,7 @@ class DatabaseSeeder extends Seeder
         Project::create(
             [
                 'name' => 'Ecommerce Application', 
-                'type' => 'Middleware Integration IL',
+                'type' => 'Personal',
                 'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam minima et illo reprehenderit.',
                 'skills' => 'Docker, Java, JavaScript',
             ]
@@ -47,7 +47,7 @@ class DatabaseSeeder extends Seeder
         Project::create(
             [
                 'name' => 'Middleware Integration IL', 
-                'type' => 'Middleware Integration IL',
+                'type' => 'Personal',
                 'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam minima et illo reprehenderit.',
                 'skills' => 'Docker, Java, JavaScript',
             ]

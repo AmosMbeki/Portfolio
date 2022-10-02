@@ -13,4 +13,8 @@
             <x-items-experience :experiences="$experiences" />
         </div>
     </x-card-bottom>
+    {{-- <div class="mt-6 p-4">
+        {{$experiences->links()}}
+    </div> --}}
 </div>
+

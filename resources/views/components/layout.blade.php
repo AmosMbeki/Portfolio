@@ -11,13 +11,17 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
     <link rel="stylesheet" href="/css/style.css">
+    <script src="//unpkg.com/alpinejs" defer></script>
     <title>Amos Nyagar | Portfolio</title>
     </head>
 
     <body>
+    
     <div class="container">
-        @include('partials._header')    
-        @yield('content')
+        @include('partials._header')  
+        <x-flash-message />  
+        {{-- @yield('content') --}}
+        {{$slot}}
         @include('partials._footer')
     </div>
 
