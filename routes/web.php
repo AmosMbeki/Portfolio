@@ -27,4 +27,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PortfolioController::class, 'index']);
 
+
+// show form data
 Route::post('/', [PortfolioController::class, 'store']);

@@ -18,12 +18,12 @@
                     <i class="fab fa-linkedin"></i>
                 </a>
                 </div>
-                <div>
+                <div class="d-none d-md-block">
                 <a href="http://instagram.com" class="text-white">
                     <i class="fab fa-instagram"></i>
                 </a>
                 </div>
-                <div>
+                <div class="d-none d-md-block">
                 <a href="http://github.com" class="text-white">
                     <i class="fab fa-github"></i>
                 </a>

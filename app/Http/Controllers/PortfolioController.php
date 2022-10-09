@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Skill;
 use App\Models\Project;
 use App\Models\Experience;
+use App\Models\FormInput;
 use Illuminate\Http\Request;
 
 class PortfolioController extends Controller
@@ -26,6 +27,7 @@ class PortfolioController extends Controller
         ]);
 
         // Contact::create($formFields); 
+        FormInput::create($formFields);
 
         return redirect('/')->with('message', 'Message sent successfully!');
     }
