@@ -1,7 +1,7 @@
 <header id="main-header">
     <div class="row no-gutters">
         <div class="col-lg-4 col-md-5">
-        <img src="{{asset('img/person1.jpg')}}" alt="">
+        <img id="obj" src="{{asset('img/profile.png')}}" alt="">
         </div>
         <div class="col-lg-8 col-md-7">
         <div class="d-flex flex-column">
