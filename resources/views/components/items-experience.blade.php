@@ -11,7 +11,7 @@
                 Position: {{$experience->position}}
                 </p>
                 <p class="p-2 mb-3 bg-success text-white">
-                Phone: {{$experience->contact}}
+                Contact: {{$experience->contact}}
                 </p>
             </div>
             <div class="card-footer">

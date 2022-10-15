@@ -8,23 +8,23 @@
             <div class="p-5 bg-dark text-white">
             <div class="d-flex flex-row justify-content-between align-items-center">
                 <h1 class="display-4">Amos Nyagar</h1>
-                <div class="d-none d-md-block">
+                {{-- <div class="d-none d-md-block">
                 <a href="http://twitter.com" class="text-white">
                     <i class="fab fa-twitter"></i>
                 </a>
-                </div>
+                </div> --}}
                 <div>
-                <a href="http://linkedin.com" class="text-white">
+                <a href="https://www.linkedin.com/in/amos-nyagar-8535b6177/" class="text-white">
                     <i class="fab fa-linkedin"></i>
                 </a>
                 </div>
-                <div class="d-none d-md-block">
+                {{-- <div class="d-none d-md-block">
                 <a href="http://instagram.com" class="text-white">
                     <i class="fab fa-instagram"></i>
                 </a>
-                </div>
+                </div> --}}
                 <div class="d-none d-md-block">
-                <a href="http://github.com" class="text-white">
+                <a href="https://github.com/AmosMbeki/" class="text-white">
                     <i class="fab fa-github"></i>
                 </a>
                 </div>

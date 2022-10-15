@@ -4,15 +4,15 @@
     @foreach ($projects as $project)
     <div class="col-md-4 px-2">
           <div class="card">
-            <img class="card-img-top" src="https://unsplash.it/1200/768.jpg?image=253" alt="Project Name">
+            <img class="card-img-top" src="https://unsplash.it/1200/768.jpg?image=2" alt="Project Name">
             <div class="card-body">
               <h6 class="card-title">{{$project->name}}</h6>
               <ul class="list-unstyled">
-                <li>{{$project->type}}</li> 
+                <li>{{$project->description}}</li> 
               </ul>
             </div>
           </div>
-          <button class="btn-warning btn-block btn-lg" data-toggle="modal" data-target="#descriptionModal">Description</button>
+          <button class="btn-warning btn-block btn-lg" data-toggle="modal" data-target="#descriptionModal">Technologies Used</button>
     </div>
     
     <!-- Modal -->
@@ -26,7 +26,7 @@
             </button>
           </div>
           <div class="modal-body">
-            <p>{{$project->description}}</p>
+            <p>{{$project->skills}}</p>
           </div>
         </div>
       </div>

@@ -3,12 +3,13 @@
 <div id="experience" class="collapse">
     <x-card-top class="bg-success">
         <h2>My Experience</h2>
-        <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, ut!</p>
+        <p class="lead">Below are some of the the institutions attended, companies interned or worked for and the specific roles taken part in over my learning, research and career path.</p>
     </x-card-top>
 
     <x-card-bottom>
-        <h3>Where Have I Worked?</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque similique saepe inventore rem vitae esse.</p>
+        <h3>Work & Studies</h3>
+        <hr>
+        {{-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque similique saepe inventore rem vitae esse.</p> --}}
         <div class="card-deck">
             <x-items-experience :experiences="$experiences" />
         </div>

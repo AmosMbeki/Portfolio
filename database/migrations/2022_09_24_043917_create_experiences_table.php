@@ -19,8 +19,8 @@ return new class extends Migration
             $table->longText('description');
             $table->string('position');
             $table->string('contact');
-            $table->integer('from');
-            $table->integer('to');
+            $table->string('from');
+            $table->string('to');
             $table->timestamps();
         });
     }
