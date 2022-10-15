@@ -89,6 +89,8 @@ class DatabaseSeeder extends Seeder
             ]
         );
 
+        
+
        
 
         /*** Skill */
@@ -137,6 +139,13 @@ class DatabaseSeeder extends Seeder
         Skill::create(
             [
                 'name' => 'SQL and NoSQL', 
+                'level' => 80
+            ]
+        );
+
+        Skill::create(
+            [
+                'name' => 'Java, PHP, Python and C++', 
                 'level' => 80
             ]
         );

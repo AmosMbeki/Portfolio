@@ -1,7 +1,7 @@
 <header id="main-header">
     <div class="row no-gutters">
         <div class="col-lg-4 col-md-5">
-        <img id="obj" src="{{asset('img/profile.png')}}" alt="">
+        <img id="obj" src="https://portfolio-amos-nyagar.s3.ap-south-1.amazonaws.com/profile.PNG" alt="">
         </div>
         <div class="col-lg-8 col-md-7">
         <div class="d-flex flex-column">
