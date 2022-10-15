@@ -9,15 +9,17 @@
               <h6 class="card-title">{{$project->name}}</h6>
               <ul class="list-unstyled">
                 <li>{{$project->description}}</li> 
+                
               </ul>
+              <p><b>Skills: </b><i>{{$project->skills}}</i></p>
             </div>
           </div>
-          <button class="btn-warning btn-block btn-lg" data-toggle="modal" data-target="#descriptionModal">Technologies Used</button>
+          {{-- <button class="btn-warning btn-block btn-lg" data-toggle="modal" data-target="#descriptionModal">Technologies Used</button> --}}
     </div>
     
     <!-- Modal -->
 
-    <div class="modal fade" id="descriptionModal" role="dialog">
+    {{-- <div class="modal fade" id="descriptionModal" role="dialog">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
@@ -30,7 +32,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> --}}
     @endforeach
 @endunless
 
