@@ -2,7 +2,7 @@
 
 @unless (count($projects) == 0)
     @foreach ($projects as $project)
-    <div class="col-md-4 px-2">
+    <div class="col-md-6 px-2">
           <div class="card">
             <img class="card-img-top" src="https://unsplash.it/1200/768.jpg?image=2" alt="Project Name">
             <div class="card-body">
@@ -12,6 +12,7 @@
                 
               </ul>
               <p><b>Skills: </b><i>{{$project->skills}}</i></p>
+              <p><b>Link: </b><i>{{$project->link}}</i></p>
             </div>
           </div>
           {{-- <button class="btn-warning btn-block btn-lg" data-toggle="modal" data-target="#descriptionModal">Technologies Used</button> --}}

@@ -2,7 +2,7 @@
 
 @unless (count($experiences) == 0)
     @foreach ($experiences as $experience)
-    <div class="col-md-4">
+    <div class="col-md-6">
         <div class="card">
             <div class="card-body">
                 <h4 class="card-title">{{$experience->name}}</h4>

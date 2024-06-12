@@ -3,11 +3,11 @@
 <div id="experience" class="collapse">
     <x-card-top class="bg-success">
         <h2>My Experience</h2>
-        <p class="lead">Below are some of the the institutions attended, companies interned or worked for and the specific roles taken part in over my learning, research and career path.</p>
+        <p class="lead">I current work at Jubilee Inusurance for the Insurtech wing of the the company. It is the largest Inusurance Company in the economy of East Africa Community with a market share of 20 percent.</p>
     </x-card-top>
 
     <x-card-bottom>
-        <h3>Work & Studies</h3>
+        <h3>Professional Work Experience</h3>
         <hr>
         {{-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque similique saepe inventore rem vitae esse.</p> --}}
         <div class="card-deck">
